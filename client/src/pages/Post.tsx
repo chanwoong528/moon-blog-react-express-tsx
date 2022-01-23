@@ -3,7 +3,7 @@ export default function Post() {
   const [posts, setPosts] = useState([]);
 
   const onClickFetchPost = async () => {
-    const res = await fetch("/post", {
+    const res = await fetch("heroku -v/post", {
       method: "GET",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
