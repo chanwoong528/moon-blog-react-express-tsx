@@ -42,6 +42,7 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "https://moon-blog-react-express-tsx.herokuapp.com",
   "devDependencies": {
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
