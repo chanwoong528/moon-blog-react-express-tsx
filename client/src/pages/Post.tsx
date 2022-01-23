@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 export default function Post() {
   const [posts, setPosts] = useState([]);
+  const serverUrl = ""; //"http://localhost:5000";
 
   const onClickFetchPost = async () => {
-    const res = await fetch("/post", {
+    const res = await fetch(`${serverUrl}/posts`, {
       method: "GET",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
