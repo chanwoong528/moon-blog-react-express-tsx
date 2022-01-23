@@ -13,6 +13,7 @@ app.get("/post", async (req, res) => {
     { id: 1, title: "post1", body: "post1" },
     { id: 2, title: "post2", body: "post2" },
     { id: 3, title: "post3", body: "post3" },
+    { id: 4, title: "post4", body: "post4" },
   ];
 
   return res.status(200).send({ posts });

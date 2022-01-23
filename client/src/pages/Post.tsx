@@ -12,6 +12,8 @@ export default function Post() {
     console.log(posts);
     if (res.ok) {
       setPosts(posts.posts);
+    } else {
+      setPosts([]);
     }
   };
 
